@@ -14,4 +14,5 @@ Data is persisted and saved locally using plist
 ![alt tag](https://raw.github.com/willysharp5/ToDOApp/master/1.png) <br/>
 ![alt tag](https://raw.github.com/willysharp5/ToDOApp/master/2.png) <br/>
 ![alt tag](https://raw.github.com/willysharp5/ToDOApp/master/3.png) <br/>
-![alt tag](https://raw.github.com/willysharp5/ToDOApp/master/4.png)
+![alt tag](https://raw.github.com/willysharp5/ToDOApp/master/4.png) <br/>
+![alt tag](https://raw.github.com/willysharp5/ToDOApp/master/5.png)

@@ -83,6 +83,7 @@
     [self.navigationItem setLeftBarButtonItem:addButton];
     
     
+    
     //NSLog(@"Document Directory %@", [self documentsDirectory]);
     //NSLog(@"Data file %@", [self dataFilePath]);
     
@@ -190,6 +191,7 @@
     
 }
 
+
 //attach the segue to the disclosure control in tableview
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
@@ -204,10 +206,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-//Reorder table delegates
-- (UITableViewCellEditingStyle)tableView:(UITableView *)aTableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return UITableViewCellEditingStyleNone;
-}
+
 
 //Reorder table delegates
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -216,6 +215,7 @@
     }
     return YES;
 }
+
 
 //Reorder table delegates
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
